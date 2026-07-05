@@ -50,11 +50,13 @@ input_df = pd.DataFrame([[
     
 
 ]], columns=[
-     'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
-       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity','OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
-       'StreamingMovies', 'PaperlessBilling', 'MonthlyCharges', 'TotalCharges', 'PaymentMethod_Bank transfer (automatic)',
-       'PaymentMethod_Credit card (automatic)', 'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
-       'Contract_Month-to-month', 'Contract_One year', 'Contract_Two year'
+     'gender', 'SeniorCitizen', 'Partner', 'Dependents',
+    'tenure', 'PhoneService', 'MultipleLines',
+    'InternetService','OnlineSecurity', 'OnlineBackup',
+    'DeviceProtection','TechSupport',
+    'StreamingTV','StreamingMovies',
+    'PaperlessBilling', 'MonthlyCharges',
+    'TotalCharges','Contract','PaymentMethod'
 ])
 
 if st.button("Predict"):
