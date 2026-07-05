@@ -42,20 +42,13 @@ PaymentMethod = st.selectbox(
 input_df = pd.DataFrame([[
     gender, SeniorCitizen, Partner, Dependents,
     tenure, PhoneService, MultipleLines,
-    OnlineSecurity, OnlineBackup,
+    InternetService,OnlineSecurity, OnlineBackup,
     DeviceProtection, TechSupport,
     StreamingTV, StreamingMovies,
     PaperlessBilling, MonthlyCharges,
-    TotalCharges,
-    InternetService_DSL,
-    InternetService_Fiber,
-    Payment_Bank,
-    Payment_Credit,
-    Payment_Electronic,
-    Payment_Mailed,
-    Contract_Month,
-    Contract_One,
-    Contract_Two
+    TotalCharges,Contract,PaymentMethod
+    
+
 ]], columns=[
      'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
        'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity','OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
