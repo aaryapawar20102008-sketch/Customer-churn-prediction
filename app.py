@@ -57,22 +57,11 @@ input_df = pd.DataFrame([[
     Contract_One,
     Contract_Two
 ]], columns=[
-    'gender','SeniorCitizen','Partner','Dependents',
-    'tenure','PhoneService','MultipleLines',
-    'OnlineSecurity','OnlineBackup',
-    'DeviceProtection','TechSupport',
-    'StreamingTV','StreamingMovies',
-    'PaperlessBilling','MonthlyCharges',
-    'TotalCharges',
-    'InternetService_DSL',
-    'InternetService_Fiber optic',
-    'PaymentMethod_Bank transfer (automatic)',
-    'PaymentMethod_Credit card (automatic)',
-    'PaymentMethod_Electronic check',
-    'PaymentMethod_Mailed check',
-    'Contract_Month-to-month',
-    'Contract_One year',
-    'Contract_Two year'
+     'gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity','OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'PaperlessBilling', 'MonthlyCharges', 'TotalCharges', 'PaymentMethod_Bank transfer (automatic)',
+       'PaymentMethod_Credit card (automatic)', 'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Contract_Month-to-month', 'Contract_One year', 'Contract_Two year'
 ])
 
 if st.button("Predict"):
